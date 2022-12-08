@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Opdracht les 15</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <meta name="author" content="Wiel Hotterbeekx">
+    </head>
+
+    <body>
+        <header class="koptekst">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Arbutus+Slab&display=swap" rel="stylesheet">
+        </header>
+
+        <form   action="https://formspree.io/f/xpznvjkb"
+                method="POST"> 
+           
+
+            <h2>Contactformulier</h2>
+            <h3>Wanneer u contact met mij wil opnemen, gebruik dan onderstaand formulier</h3>
+        
+            <table class="tabel_contact">
+                <tr>
+                    <td class=td_contact>Uw voornaam:</td><td class=td_contact><input type="text" name="voornaam" placeholder="Uw voornaam" />
+                </tr>
+                <tr>
+                    <td class=td_contact>Uw achternaam (met tussenvoegsel):</td><td class=td_contact><input type="text" name="achternaam" placeholder="Uw achternaam" /></td>
+                </tr>
+                <tr>
+                    <td class=td_contact>Uw e-mailadres:</td><td class=td_contact><input type="email" name="e_mail" placeholder="Uw e-mailadres" /></td>
+                </tr>
+                <tr>
+                    <td class=td_contact>Waarover wil u contact opnemen? <br> (maximaal 1500 tekens):</td><td class=td_contact> <textarea id="bericht" maxlength="1500" name="bericht" placeholder="bericht"> </textarea></td>
+            </table>
+            <br>
+            <button>Verzend</button>
+            <br>
+            <br>
+        </form>
+
+        <footer class="voettekst">
+            <br>
+            <p><img class="image_copyright" src="../afbeeldingen/copyright.png"   alt="copyright" title="copyright"> Copyright: Wiel Hotterbeekx</p>
+        </footer>
+        <br>
+
+    </body>
+</html>

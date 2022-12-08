@@ -29,16 +29,16 @@
         
             <table class="tabel_contact">
                 <tr>
-                    <td class=td_contact>Uw voornaam:</td><td class=td_contact><input type="text" name="voornaam" placeholder="Uw voornaam" />
+                    <td class=td_contact><label for="voornaam">Uw voornaam:</label></td><td class=td_contact><input id="voornaam" type="text" name="voornaam" placeholder="Uw voornaam"></td>
                 </tr>
                 <tr>
-                    <td class=td_contact>Uw achternaam (met tussenvoegsel):</td><td class=td_contact><input type="text" name="achternaam" placeholder="Uw achternaam" /></td>
+                    <td class=td_contact><label for="achternaam">Uw achternaam (met tussenvoegsel):</label></td><td class=td_contact><input  id="achternaam" type="text" name="achternaam" placeholder="Uw achternaam"></td>
                 </tr>
                 <tr>
-                    <td class=td_contact>Uw e-mailadres:</td><td class=td_contact><input type="email" name="e_mail" placeholder="Uw e-mailadres" /></td>
+                    <td class=td_contact><label for="email">E-mail adres:</label></td><td class=td_contact><input type="email" name="email" placeholder="Vul email-adres in"></td>
                 </tr>
                 <tr>
-                    <td class=td_contact>Waarover wil u contact opnemen? <br> (maximaal 1500 tekens):</td><td class=td_contact> <textarea id="bericht" maxlength="1500" name="bericht" placeholder="bericht"> </textarea></td>
+                    <td class=td_contact>Waarover wil u contact opnemen? <br> (maximaal 1500 tekens):</td><td class=td_contact> <textarea name="bericht" maxlength="1500" placeholder="bericht"> </textarea></td>
             </table>
             <br>
             <button>Verzend</button>
